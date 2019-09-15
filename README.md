@@ -90,6 +90,8 @@ TODO
 
 # Mode Workflows
 
+The following workflows assume your development machine is setup accordingly. Please see [the instructions here](https://github.com/martinthomson/i-d-template/blob/master/doc/SETUP.md) for more details.
+
 ## Document Management Mode
 
 ### Document Repository Creation
