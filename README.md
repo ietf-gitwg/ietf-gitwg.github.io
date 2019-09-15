@@ -94,13 +94,15 @@ The following workflows assume your development machine is setup accordingly. Pl
 
 ## Document Management Mode
 
+This mode of interaction uses GitHub primarily as a Git provider. Thus, it describes how to create document repositories, modify them, and prepare and upload submissions.
+
 ### Document Repository Creation
 
-TODO: steps using Martin's tooling
+Detailed steps for creating a repository using the [i-d-template](https://github.com/martinthomson/i-d-template) tool from Martin Thomson [can be found here](https://github.com/martinthomson/i-d-template/blob/master/doc/REPO.md).
 
 ### Document Modification
 
-TODO: from fork or repository, create branch, make edits, push to branch, thens submit PR
+TODO: from fork or repository, create branch, make edits, push to branch, then submit PR
 
 ### Document Submission
 
