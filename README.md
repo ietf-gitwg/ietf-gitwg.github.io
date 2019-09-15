@@ -1,15 +1,8 @@
-# IETF GiHub Tutorial
-
-# Outline
-
-- Introduction: summary of tutorial, what folks can expect to achieve, forward pointers to other document sections
-- Technology overview: Git, GitHub, and C-I
-- Workflows: Repository creation, document changes, and document submission
-- Additional reading and resources
-
 # Introduction
 
-TODO
+GitHub and similar version control sysems used for developing IETF Internet Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
+
+This document serves as a tutorial for GitHub and its underlying concepts. It provides instructions for interacting with GitHub for the purposes of managing, developing, and advancing Internet Drafts.
 
 # Technology Overview
 
@@ -95,17 +88,27 @@ GitHub is a platform that hosts Git repositories and provides a web interface fo
 
 TODO
 
-# Workflows
+# Mode Workflows
 
-## Document Repository Creation
+## Document Management Mode
+
+### Document Repository Creation
 
 TODO: steps using Martin's tooling
 
-## Document Modification
+### Document Modification
 
 TODO: from fork or repository, create branch, make edits, push to branch, thens submit PR
 
-## Document Submission
+### Document Submission
+
+TODO
+
+## Issue Tracking Mode
+
+TODO
+
+## Issue Discussion Mode
 
 TODO
 
