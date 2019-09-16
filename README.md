@@ -1,6 +1,6 @@
 # Introduction
 
-GitHub and similar version control sysems used for developing IETF Internet Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
+GitHub and similar version control systems used for developing IETF Internet Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
 
 This document serves as a tutorial for GitHub and its underlying concepts. It provides instructions for interacting with GitHub for the purposes of managing, developing, and advancing Internet Drafts.
 
@@ -82,7 +82,7 @@ GitHub is a platform that hosts Git repositories and provides a web interface fo
 - [Code review](https://github.com/features/code-review/): Prepare, review, and merge PRs.
 - [Issue tracking](https://help.github.com/en/articles/about-issues): A single, per-repository mechanism for collecting draft feedback, reporting issues, and organize tasks.
 - [Documentation](https://github.com/features#documentation): Wiki-style documentation pages that track miscellaneous information and content inappropriate for Internet Drafts yet still relevant to the work, such as pointers to software implementations, test vectors, or other testing tools.
-- [Content hosting](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/): Web hosting for Internet Draft papges.
+- [Content hosting](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/): Web hosting for Internet Draft pages.
 
 ## Continuous Integration (C-I)
 
