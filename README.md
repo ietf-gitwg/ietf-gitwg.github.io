@@ -180,4 +180,4 @@ Beyond using labels to help triage and discuss issues, this mode may also involv
 
 # Additional Resources
 
-- https://datatracker.ietf.org/meeting/104/materials/slides-104-edu-sessg-git-github-and-markdown-for-internet-drafts-00
+- [Mike Bishop's IETF 104 Tutorial](https://datatracker.ietf.org/meeting/104/materials/slides-104-edu-sessg-git-github-and-markdown-for-internet-drafts-00)
