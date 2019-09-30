@@ -169,7 +169,7 @@ This mode of interaction assumes more familiarity with GitHub issues. There are 
 
 An example of issues used for tracking purposes for the [TLS Encrypted SNI](https://github.com/tlswg/draft-ietf-tls-esni) document is shown below.
 
-![Issue list](tls_esni_issue_list.png)
+![Issue list](tls_esni_issue_list.png =250x250)
 
 ## Issue Discussion Mode
 
@@ -181,7 +181,7 @@ This mode of interaction assumes familiarity with GitHub labels. Helpful resourc
 
 Beyond using labels to help triage and discuss issues, this mode may also involve use of GitHub's [project boards](https://help.github.com/en/articles/about-project-boards). An example of the project board in use for the [QUIC](https://github.com/quicwg/base-drafts) repository is shown below.
 
-![Project board](quic_project_board.png)
+![Project board](quic_project_board.png =250x250)
 
 # Additional Resources
 
