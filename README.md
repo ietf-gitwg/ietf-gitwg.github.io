@@ -164,7 +164,7 @@ This mode of interaction assumes more familiarity with GitHub issues. There are 
 
 An example of issues used for tracking purposes for the [TLS Encrypted SNI](https://github.com/tlswg/draft-ietf-tls-esni) document is shown below.
 
-![Issue list](tls_esni_project_board.png)
+![Issue list](tls_esni_issue_list.png)
 
 ## Issue Discussion Mode
 
