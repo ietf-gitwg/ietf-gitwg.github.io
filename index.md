@@ -15,7 +15,16 @@ This section presents an overview of technologies related to the use of GitHub f
 
 ## Git
 
-[Git](https://git-scm.com/book/en/v2) is a distributed version control system (VCS). As such, it provides a persistent, ordered history of modifications to files under source control. For the purposes of this work, that means text documents for Internet Drafts. This can be, for example, [Markdown](https://www.ietf.org/about/participate/tutorials/process/writing-rfcs-and-internet-drafts-markdown-and-bit-yaml/) or [XML](https://tools.ietf.org/html/rfc2629). Markdown is the preferred medium for documents tracked and managed with Git. 
+[Git](https://git-scm.com/book/en/v2) is a version control system (VCS). As such, it provides a persistent, ordered history of modifications to files under source control. For the purposes of this work, that means text documents for Internet Drafts. This can be, for example, [Markdown](https://www.ietf.org/about/participate/tutorials/process/writing-rfcs-and-internet-drafts-markdown-and-bit-yaml/) or [XML](https://tools.ietf.org/html/rfc2629). Markdown is the preferred medium for documents tracked and managed with Git. 
+
+Notably, Git is a distributed VCS. That means that a set of files can
+be worked on in different locations at the same time, and edits can be
+merged when desired. It also means that changes across multiple instances
+can be shared and integrated very flexibly. For example, within an IETF
+working group, there is likely an repository on a hosting service,
+individual authors and design teams can have their own, and changes
+can be handled across all interactions.
+
 
 There are a few concepts that are useful to know when working with Git, described below.
 
