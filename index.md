@@ -3,6 +3,10 @@ layout: front
 title: IETF Git and GitHub Tutorial
 ---
 
+# Disclaimer
+
+This page is work-in-progress. Please [see the document's repository](https://github.com/ietf-gitwg/ietf-gitwg.github.io) and [file an issue](https://github.com/ietf-gitwg/ietf-gitwg.github.io/issues/new) or submit a Pull Request with any suggestions for improvement!
+
 # Introduction
 
 GitHub and similar version control systems used for developing IETF Internet Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
@@ -98,13 +102,18 @@ GitHub is a platform that hosts Git repositories and provides a web interface fo
 - [Documentation](https://github.com/features#documentation): Wiki-style documentation pages that track miscellaneous information and content inappropriate for Internet Drafts yet still relevant to the work, such as pointers to software implementations, test vectors, or other testing tools.
 - [Content hosting](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/): Web hosting for Internet Draft pages.
 
+The following resources should help getting started with GitHub:
+
+- [Set up Git](https://help.github.com/en/articles/set-up-git)
+- [Getting started with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
+
 # Mode Workflows
 
 The following workflows assume your development machine is setup accordingly. Please see [the instructions here](https://github.com/martinthomson/i-d-template/blob/master/doc/SETUP.md) for more details.
 
 ## Document Management Mode
 
-This mode of interaction uses GitHub primarily as a Git provider. Thus, it describes how to create document repositories, modify them, and prepare and upload submissions.
+This mode of interaction uses GitHub primarily as a Git provider. Thus, it describes how to create document repositories, modify them, and prepare and upload submissions. For those who do not wish to use a command-line interface to modify documents, please [check out the GitHub desktop application](https://help.github.com/en/desktop/contributing-to-projects) for assistance. 
 
 ### Document Repository Creation
 
