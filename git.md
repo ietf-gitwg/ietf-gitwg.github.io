@@ -15,20 +15,23 @@ working group, there is likely an repository on a hosting service,
 individual authors and design teams can have their own, and changes
 can be handled across all interactions.
 
-
 There are a few concepts that are useful to know when working with Git, described below.
 
 ## Repository
 
 A Git repository is a collection of files under source control.
 
+Repositories can be cloned, which creates a copy of the repository, including all commits.
+
 ## Commit
 
-A commit is effectively a snapshot of all tracked files at a particular point in time. Each snapshot of a file is stored by hash. Each commit is a collection of file snapshots that capture the current state of the repository. Each commit has at least one parents to track history, as shown below.
+A commit (or revision) is effectively a snapshot of all tracked files at a particular point in time. Each snapshot of a file is stored by hash. Each commit is a collection of file snapshots that capture the current state of the repository. Each commit has at least one parent commit, as shown below.
 
 ```
 ... ====[commit 1]====[commit 2]====...===[commit N]===[commit N+1]===>
 ```
+
+New commits can be added by making changes, staging changes with `git add` and then creating a new commit with `git commit`.
 
 ## [Branch](https://help.github.com/en/articles/github-glossary#branch) {#branch}
 
@@ -40,7 +43,7 @@ Minimally, each repository has a branch called "master," shown below.
 master: ====[commit 1]====[commit 2]====...===[commit N]===[commit N+1]===>
 ```
 
-Many branches can exist in parallel. Ultimately, each of these branches "stem" from some commit in the "master" branch.
+Many branches can exist in parallel. Branches will often "stem" from some commit in the "master" branch.
 
 ```
 master: ====[commit 1]====[commit 2]====...===[commit N]===[commit N+1]===>
@@ -48,6 +51,10 @@ issue-1:                                            \====[commit 1]====[commit 2
 ```
 
 The base of a branch is the commit from which it originated. The tip of a branch is the latest commit in the sequence. In the example above, `commit 1` for the "issue-1" branch is *based* on `commit N` of the "master" branch.
+
+A branch is created with `git branch`.  A branch is activated by checking it out using `git checkout <branch>`.
+
+Alternatively, a branch can be thought of as a pointer to a commit.  When new commits are added, the active branch moves to point to the new commit.
 
 Typically, individual features or document changes happen in branches through a series of one or more commits to said branches. 
 
@@ -74,3 +81,17 @@ issue-1:              \====[commit 1]====[commit 2]====/
 ```
 
 In this example, the "issue-1" branch was re-based on "master" from its tip (`commit N`). It then merges cleanly into "master" since all changes in "issue-1" are built on those in "master". (In other words, the sequence of commits is linear, with one path.)
+
+## Tags
+
+Just like a branch, tags point to a commit.  Unlike branches, tags don't move when new commits are added.  Tags are created with `git tag`.
+
+Tags are usually used to mark particular commits as being special.  For instance, tags are often used to mark release versions.
+
+## Pull and Push
+
+Git is a distributed system, so all of the previous operations happen only locally.  Changes are moved between repositories by copying commits (and branches, and sometimes tags).
+
+Git maintains a set of "remotes", which are the location of other copies of the repository.  When a repository is cloned, git creates a remote called "origin" pointing to the original repository.  Remotes can be managed using `git remote`.
+
+Commits in the local repository can be copied to another remote with `git push`.  Commits in the remote repository can be copied into the local repository with `git fetch` and `git pull`.  A pull also modifies the current branch to include any remote changes, whereas a fetch only takes a copy of the remote commits without making any changes to the local branch.
