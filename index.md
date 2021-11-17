@@ -9,21 +9,21 @@ This page is work-in-progress. Please [see the document's repository](https://gi
 
 # Introduction
 
-GitHub and similar version control systems used for developing IETF Internet Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
+GitHub and similar version control systems used for developing IETF Internet-Drafts and managing Working Group process in a transparent fashion can be highly effective. GitHub in particular enables several different modes of interaction for Working Groups and its participants, as discussed in the [Using GitHub draft](https://ietf-gitwg.github.io/using-github/draft-ietf-git-using-github.html). However, using these systems without any prior experience may be challenging. 
 
-This document serves as a tutorial for GitHub and its underlying concepts. It provides instructions for interacting with GitHub for the purposes of managing, developing, and advancing Internet Drafts.
+This document serves as a tutorial for GitHub and its underlying concepts. It provides instructions for interacting with GitHub for the purposes of managing, developing, and advancing Internet-Drafts.
 
 This assumes some familiarity with git.  See [the git basics](/git.html) for a primer on basic git concepts.
 
 # GitHub
 
-GitHub is a platform that hosts Git repositories and provides a web interface for interacting with and managing repositories. Beyond basic Git functionality, GitHub provides the following features that are useful for Internet Draft document management:
+GitHub is a platform that hosts Git repositories and provides a web interface for interacting with and managing repositories. Beyond basic Git functionality, GitHub provides the following features that are useful for Internet-Draft document management:
 
 - [Code review](https://github.com/features/code-review/): Prepare, review, and merge PRs.
 - [Issue tracking](https://help.github.com/en/articles/about-issues): A single, per-repository mechanism for collecting draft feedback, reporting issues, and organize tasks.
 - [Pull requests](https://help.github.com/en/articles/about-pull-requests) or PR: A request to take new changes from one branch and merge them into another branch.  On GitHub, this is the primary way in which changes are contributed.
-- [Documentation](https://github.com/features#documentation): Wiki-style documentation pages that track miscellaneous information and content inappropriate for Internet Drafts yet still relevant to the work, such as pointers to software implementations, test vectors, or other testing tools.
-- [Content hosting](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/): Web hosting for Internet Draft pages.
+- [Documentation](https://github.com/features#documentation): Wiki-style documentation pages that track miscellaneous information and content inappropriate for Internet-Drafts yet still relevant to the work, such as pointers to software implementations, test vectors, or other testing tools.
+- [Content hosting](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/): Web hosting for Internet-Draft pages.
 
 The following resources should help getting started with GitHub:
 
